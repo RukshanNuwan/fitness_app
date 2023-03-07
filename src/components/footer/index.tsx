@@ -1,8 +1,6 @@
-import {SelectedPage} from "@/shared/types";
 import Logo from "@/assets/Logo.png";
 
 interface Props {
-  setSelectedPage: (value: SelectedPage) => void;
 }
 
 const Footer = ({}: Props) => {
