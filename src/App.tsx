@@ -5,6 +5,7 @@ import {SelectedPage} from "@/shared/types";
 import Home from "@/components/home";
 import Benefits from "@/components/benefits";
 import OurClasses from "@/components/ourClasses";
+import ContactUs from "@/components/contactUs";
 
 const App = () => {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
@@ -36,6 +37,7 @@ const App = () => {
       <Home setSelectedPage={setSelectedPage}/>
       <Benefits setSelectedPage={setSelectedPage}/>
       <OurClasses setSelectedPage={setSelectedPage}/>
+      <ContactUs setSelectedPage={setSelectedPage}/>
     </div>
   )
 }
